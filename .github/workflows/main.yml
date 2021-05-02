@@ -44,8 +44,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            fabricioveronez/api-bootcamp-produto:latest
-            fabricioveronez/api-bootcamp-produto:${{github.run_number}}
+            ericklima91/api-produto:v1
+            ericklima91/api-produto:${{github.run_number}}
             
   CD:
     runs-on: ubuntu-latest
